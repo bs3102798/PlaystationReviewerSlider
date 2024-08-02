@@ -39,6 +39,7 @@ header {
     background-color: transparent;
 }
 
+
 .menu {
     color: #ffffff;
     font-size: 2em;
@@ -197,5 +198,13 @@ header {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.3);
     color: rgba(255, 255, 255, 0.3);
+}
 
+.swiper .swiper-pagination {
+    max-height: 20px;
+    position: absolute;
+    left: 30%;
+    top: 44%;
+    margin-bottom: 480px;
+    margin-left: 400px;
 }
