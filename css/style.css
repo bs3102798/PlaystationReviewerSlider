@@ -208,3 +208,132 @@ header {
     margin-bottom: 480px;
     margin-left: 400px;
 }
+
+.swiper .swiper-pagination .swipe-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    opacity: 1;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    z-index: 10;
+    background-color: yellow;
+
+}
+
+.swiper .swiper-pagination .swipe-pagination-bullet-active {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.swiper .swiper-wrapper .swiper-slide .banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px 100px 0;
+    overflow: hidden;
+    background: transparent;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.swiper .swiper-wrapper .swiper-slide .banner img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 500px;
+    z-index: 1;
+}
+
+.swiper .swiper-wrapper .swiper-slide .backscene {
+    position: absolute;
+    content: '';
+    top: 15%;
+    left: 54%;
+    transform: translateX(-50%);
+    background: transparent;
+    box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+}
+
+.swiper .swiper-wrapper .swiper-slide .banner .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+.banner .left .features {
+    max-width: 400px;
+    margin-bottom: 100px;
+}
+
+.banner .left .features .rating {
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.banner .left .features .rating .score {
+    padding: 15px;
+    font-size: 2em;
+    font-weight: 400;
+    color: var(--primary);
+    background: #ffffff;
+
+}
+
+.banner .left .features .content {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.banner .left .features .pricing {
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner .left .features .pricing ion-icon {
+    padding: 15px;
+    font-size: 3em;
+    color: #ffffff;
+    background: rgba(255, 0, 0, 0.6);
+    transition: 0.3s;
+}
+
+.banner .left .features .pricing ion-icon:hover {
+    background: rgba(255, 0, 0, 0.9);
+}
+
+.banner .left .features .content h4 {
+    color: #ffffff;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.banner .left .features .content .subtitle {
+    color: var(--primary);
+}
+
+.banner h1 {
+    color: #ffffff;
+    letter-spacing: 5px;
+    font-size: 8em;
+    line-height: 0.9;
+    z-index: 10;
+    text-transform: uppercase;
+    font-family: 'Bauhaus 93';
+}
