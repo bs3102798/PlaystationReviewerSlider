@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <a href="/html/index.html" class="logo">
             <img src="../images/psdownload.png">
         </a>
@@ -29,7 +29,9 @@
                 <button><ion-icon name="search-outline"></ion-icon></button>
             </form>
         </div>
-    </header>
+    </header> -->
+    <div id="header"></div>
+
     <div class="swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -435,6 +437,13 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="../js/swiper.js"></script>
+    <script>
+        fetch('../components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+    </script>
 
 
 </body>

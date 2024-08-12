@@ -17,6 +17,7 @@ const resultsCOntainer = document.getElementById('results');
 //const filteredItems = items.filter(item => item.toLowerCase().includes(query));
 
 const matchingItem = items.find(item => item.name.some(alias => alias.toLowerCase() === query)
+
 )
 
 if (matchingItem) {
@@ -26,3 +27,4 @@ if (matchingItem) {
 else {
     resultsCOntainer.textContent = 'Sorry, what you searched for cannot be found.'
 }
+
