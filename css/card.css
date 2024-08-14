@@ -1,0 +1,28 @@
+.Container {
+    color: blue;
+    margin-top: 50px;
+}
+
+.container__title {
+    color: white;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.card__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card__product {
+    border: 4px solid;
+    padding-block: 1.25rem;
+    text-align: center;
+    display: grid;
+    row-gap: 1.5rem;
+}
