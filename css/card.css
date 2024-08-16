@@ -65,11 +65,11 @@ img {
     display: grid;
     place-items: center;
     padding: 2rem 1.5rem;
-    /* opacity: 0;
+    opacity: 0;
     visibility: hidden;
-    pointer-events: none; */
+    pointer-events: none;
 
-    z-index: inherit;
+    z-index: 1000;
     transition: opacity 4s, visibility .4s;
 
 }
@@ -81,8 +81,8 @@ img {
     display: grid;
     row-gap: 1.5rem;
     text-align: center;
-    /* transform: rotateX(90deg);
-    transition: transform .6s; */
+    transform: rotateX(90deg);
+    transition: transform .6s;
 
 
 }
@@ -113,4 +113,78 @@ img {
 .modal__info {
     margin-bottom: 1rem;
 
+}
+
+.modal__price {
+    font-size: larger;
+    font-weight: 400;
+    color: black;
+}
+
+.modal__buttons {
+    display: flex;
+    gap: .5rem;
+}
+
+.modal__button {
+    flex-grow: 1;
+    outline: none;
+    border: none;
+    background-color: aqua;
+    padding-block: 1rem;
+    color: rgb(104, 60, 7);
+    font: 200;
+    cursor: pointer;
+    transition: background-color .4s;
+
+}
+
+.modal__button:hover {
+    background-color: bisque;
+}
+
+.modal__button-ghost {
+    background-color: darkcyan;
+    color: red;
+    border: 3px solid black;
+}
+
+.modal__button-ghost:hover {
+    background-color: bisque;
+}
+
+.active-modal {
+    opacity: 1;
+    visibility: initial;
+    pointer-events: initial;
+}
+
+.active-modal .modal__card {
+    transform: rotateX(0);
+}
+
+/* Large */
+
+@media screen and (min-width: 1150px) {
+    .container__title {
+        margin-bottom: 4.5rem;
+    }
+
+    .card__container {
+        grid-template-columns: repeat(3, 300px);
+        gap: 3rem;
+        margin-top: 350px;
+        margin-right: 100px;
+    }
+
+    .card__product {
+        padding-block: 2rem;
+        border-width: 6px;
+    }
+}
+
+.test {
+    color: aliceblue;
+    margin-top: 350px;
+    text-align: center;
 }
