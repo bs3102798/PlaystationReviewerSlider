@@ -19,10 +19,98 @@ img {
     gap: 2rem;
 }
 
+
+
 .card__product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
     border: 4px solid;
     padding-block: 1.25rem;
     text-align: center;
     display: grid;
     row-gap: 1.5rem;
+}
+
+.card__img {
+    width: 200px;
+    filter: drop-shadow(0 8px 16px hsla(5, 90%, 4%, .2));
+    transition: transform .3s;
+}
+
+.card__name {
+    margin-bottom: .5rem;
+}
+
+.card__price {
+    font-size: large;
+    font-weight: 200;
+    color: red;
+}
+
+.card__product:hover .card__img {
+    transform: scale(1.1);
+
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background-color: hsla(5, 90%, 4%, .2);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    display: grid;
+    place-items: center;
+    padding: 2rem 1.5rem;
+    /* opacity: 0;
+    visibility: hidden;
+    pointer-events: none; */
+
+    z-index: inherit;
+    transition: opacity 4s, visibility .4s;
+
+}
+
+.modal__card {
+    position: relative;
+    background-color: azure;
+    padding: 3rem 1.25rem 2rem;
+    display: grid;
+    row-gap: 1.5rem;
+    text-align: center;
+    /* transform: rotateX(90deg);
+    transition: transform .6s; */
+
+
+}
+
+.modal__close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: blueviolet;
+    cursor: pointer;
+
+}
+
+.modal__img {
+    width: 220px;
+    justify-self: center;
+    filter: drop-shadow(0 8px 16px hsla(5, 90%, 4%, .2));
+
+}
+
+.modal__name {
+    font-size: larger;
+    color: aqua;
+    margin-bottom: .5rem;
+}
+
+.modal__info {
+    margin-bottom: 1rem;
+
 }
