@@ -7,10 +7,10 @@
     color: white;
 }
 
-img {
+/* img {
     height: 200px;
     width: 200px;
-}
+} */
 
 .card__container {
     display: grid;
@@ -173,7 +173,7 @@ img {
     .card__container {
         grid-template-columns: repeat(3, 300px);
         gap: 3rem;
-        margin-top: 350px;
+        margin-top: 50px;
         margin-right: 100px;
     }
 
@@ -185,6 +185,6 @@ img {
 
 .test {
     color: aliceblue;
-    margin-top: 350px;
+    margin-top: 100px;
     text-align: center;
 }
