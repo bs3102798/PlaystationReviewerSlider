@@ -75,6 +75,7 @@
 }
 
 .modal__card {
+    border: white;
     position: relative;
     background-color: black;
     padding: 3rem 1.25rem 2rem;
@@ -130,7 +131,7 @@
     flex-grow: 1;
     outline: none;
     border: none;
-    background-color: aqua;
+    background-color: white;
     padding-block: 1rem;
     color: rgb(104, 60, 7);
     font: 200;
@@ -140,17 +141,17 @@
 }
 
 .modal__button:hover {
-    background-color: bisque;
+    background-color: #ff0000;
 }
 
 .modal__button-ghost {
-    background-color: darkcyan;
-    color: red;
+    background-color: white;
+    color: black;
     border: 3px solid black;
 }
 
 .modal__button-ghost:hover {
-    background-color: bisque;
+    background-color: #ff0000;
 }
 
 .active-modal {
