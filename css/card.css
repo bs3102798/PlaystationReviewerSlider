@@ -1,5 +1,5 @@
 .Container {
-    color: #ff0000;
+    color: white;
     margin-top: 50px;
 }
 
@@ -43,12 +43,13 @@
 
 .card__name {
     margin-bottom: .5rem;
+    color: white;
 }
 
 .card__price {
     font-size: large;
     font-weight: 200;
-    color: red;
+    color: white;
 }
 
 .card__product:hover .card__img {
