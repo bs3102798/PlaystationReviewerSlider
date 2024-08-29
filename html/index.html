@@ -11,25 +11,7 @@
 </head>
 
 <body>
-    <!-- <header>
-        <a href="/html/index.html" class="logo">
-            <img src="../images/psdownload.png">
-        </a>
-        <a href="#" class="menu">
-            <ion-icon href="../html/Allgames.html" name="apps-outline"></ion-icon>
-        </a>
-        <ul class="nav">
-            <li><a href="../html/PlaystationHits.html">Playstation hits</a></li>
-            <li><a href="../html/PlaystationPlus.html">Playstation plus</a></li>
-            <li><a href="../html/PlaystaitonClassics.html">Playstation classics</a></li>
-        </ul>
-        <div class="search">
-            <form id="searchForm" action="result.html" method="GET">
-                <input type="text" id="searchInput" name="query" placeholder="Search">
-                <button><ion-icon name="search-outline"></ion-icon></button>
-            </form>
-        </div>
-    </header> -->
+
     <div id="header"></div>
 
     <div class="swiper">
@@ -437,14 +419,7 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="../js/swiper.js"></script>
-    <script>
-        fetch('../components/header.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('header').innerHTML = data;
-            });
-    </script>
-
+    <script src="../js/headerFetch.js"></script>
 
 </body>
 
