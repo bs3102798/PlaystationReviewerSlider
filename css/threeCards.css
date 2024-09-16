@@ -1,0 +1,10 @@
+.screen-shots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-image: url('../images/Ratchet&Clank.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
