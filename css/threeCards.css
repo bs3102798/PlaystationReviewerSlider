@@ -8,3 +8,74 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.horizon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-image: url('../images/horizon-forbidden-west.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.uncharted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-image: url('../images/uncharted-4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lostlegacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-image: url('../images/uncharted-lost-legacy.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.GOW {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-image: url('../images/God\ of\ war.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Diablo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-image: url('../images/diabloback.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.lastofus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-image: url('../images/last-of-us.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/* create one for each game you have ik its alot of the same but it the first own project */
