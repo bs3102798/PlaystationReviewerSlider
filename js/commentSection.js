@@ -21,12 +21,12 @@ userComment.addEventListener('input', e => {
 })
 
 function addPost() {
-    console.log('im here')
+
     if (!userComment.value) return;
     userId.name = userName.value;
     if (userId.name === "Anonymous") {
         userId.identity = false;
-        userId.image = "anonymous.png";
+
     } else {
         userId.identity = true;
         userId.image = "user.png"
@@ -39,11 +39,11 @@ function addPost() {
     let published = `
     <div class = "parents">
     <img src = "../images/playstation.jpg"> 
-    ${userId.image}
+
     <div>
     <h1>${userId.name}</h1>
     <p>${userId.message}</p>
-    <div class= "engagements"><img src="../images/psdownload.png"><img src="../images/ps5.png"></div>
+    <div class= "engagements"><img src="../images/like.png"><img src="../images/dislike.png"></div>
     <span class="date">${userId.date}</span>
     </div>
     

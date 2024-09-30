@@ -1,7 +1,48 @@
-.EforEveryone {
-    background: image('../images/last-of-us.jpg');
+.PlaystaitonPlusImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1000px;
+    background-image: url('../images/Ratchet&Clank.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.TforTeen {}
+.PlaystationHitsImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1000px;
+    background-image: url('../images/God\ of\ war.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-.MforMature {}
+}
+
+.PlastationClassicsImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1000px;
+    background-image: url('../images/last-of-us.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.EforEveryoneImg {}
+
+.MforMatureImg {}
+
+.TforTeenImg {}
+
+.textPage {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 3rem;
+    color: white;
+
+}
