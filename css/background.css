@@ -33,11 +33,38 @@
 
 }
 
-.EforEveryoneImg {}
+.EforEveryone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1000px;
+    background-image: url('../images/Ratchet&Clank.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
-.MforMatureImg {}
+.MforMature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1000px;
+    background-image: url('../images/last-of-us.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
-.TforTeenImg {}
+.TforTeen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1000px;
+    background-image: url('../images/uncharted-4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .textPage {
     text-align: center;
