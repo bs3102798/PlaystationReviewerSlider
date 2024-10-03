@@ -19,13 +19,17 @@
      display: flex;
      justify-content: center;
      align-items: center;
+     background-image: url('../images/FGXpADFXwAI72zS\ \(2\).jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
  }
 
 
  .text22 {
 
 
-     color: brown;
+     color: gray;
      width: 500px;
      background-color: white;
      margin-right: 200px;

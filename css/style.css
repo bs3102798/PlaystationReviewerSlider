@@ -161,8 +161,9 @@ header {
 
 .swiper .swiper-button-prev {
     position: absolute;
-    left: 86%;
+    left: 2%;
     top: 45%;
+    margin-bottom: 100px;
     width: 54px;
     height: 54px;
 

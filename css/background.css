@@ -9,6 +9,17 @@
     background-repeat: no-repeat;
 }
 
+.ReviewBackGround {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1000px;
+    background-image: url('../images/ReviewBackGround.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .PlaystationHitsImg {
     display: flex;
     flex-direction: column;
@@ -71,5 +82,15 @@
     margin-top: 70px;
     font-size: 3rem;
     color: white;
+
+}
+
+.bannerGamePlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+
 
 }
